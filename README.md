@@ -1,5 +1,5 @@
 # libasm-AMD
-L'objectif de ce projet est de se familiariser avec le langage assembleur (AMD).
+L'objectif de ce projet est de se familiariser avec le langage assembleur (ARM).
 
 # Registres :
 L'ARM a 16 registres, étiquetés R0 à R15.
