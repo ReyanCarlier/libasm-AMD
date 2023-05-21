@@ -51,8 +51,10 @@ Ils sont tous des registres généraux, à l'exception de R13 qui est générale
 - `NOP`: No Operation. Ne fait rien.
 
 ## Instructions Conditionnelles
-De nombreuses instructions ARM peuvent être conditionnelles, en ajoutant des suffixes à l'instruction. Par exemple, `ADDNE R3, R1, R2` ajoutera R1 et R2 seulement si la dernière condition de comparaison était non égale (NE). Il existe de nombreux autres suffixes pour différentes conditions.
-La plupart des instructions peuvent être conditionnellement exécutées en ajoutant un suffixe conditionnel à l'instruction. Ce suffixe est déterminé par l'état des quatre drapeaux dans le registre d'état du processeur : Z (zéro), N (négatif), C (retenue) et V (débordement).
+De nombreuses instructions ARM peuvent être conditionnelles, en ajoutant des suffixes à l'instruction. Par exemple, `ADDNE R3, R1, R2` ajoutera R1 et R2 seulement si la dernière condition de comparaison était non égale (NE).
+Il existe de nombreux autres suffixes pour différentes conditions.
+La plupart des instructions peuvent être conditionnellement exécutées en ajoutant un suffixe conditionnel à l'instruction.
+Ce suffixe est déterminé par l'état des quatre drapeaux dans le registre d'état du processeur : Z (zéro), N (négatif), C (retenue) et V (débordement).
 
 Voici les principaux suffixes de condition ARM et leurs significations :
 
